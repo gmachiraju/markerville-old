@@ -20,10 +20,12 @@ function appendName(li_element_id) {
     document.getElementById(li_element_id).appendChild(listElement);
 }
 
+
 function removeName(removeButtonNode) {
     var removingSpan = removeButtonNode.parentNode.parentNode;
     removingSpan.parentNode.removeChild(removingSpan);
 }
+
 
 function appendTrial(ul_element_id, discoveryList) {
     var listElement = document.createElement('li');
@@ -61,9 +63,11 @@ function appendTrial(ul_element_id, discoveryList) {
     document.getElementById(ul_element_id).appendChild(listElement);
 }
 
+
 function removeTrial(removeButtonNode) {
     removeName(removeButtonNode);
 }
+
 
 function appendSource(li_element_id) {
     alert('Adding multiple sources to one biomarker is not supported yet. Sorry!');
