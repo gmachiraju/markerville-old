@@ -1,8 +1,11 @@
 {
   "name": "markerville",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "main": "server.js",
+  "engines": {
+    "node": "8.2.1"
+  },
   "dependencies": {
     "blueimp-md5": "^1.1.1",
     "body-parser": "1.13.2",
@@ -12,5 +15,11 @@
     "mysql": "2.8.0",
     "nodemailer": "^1.4.0",
     "sha256": "^0.2.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gautam Machiraju",
+  "license": "MIT"
 }
